@@ -33,8 +33,8 @@ function Login(){
             <form onSubmit={handleSubmit}>
                 <div className="div-form">
                     <img src={logo} alt="" width="150"/>
-                    <h2 className="text-light fw-bold">Bienvenido a ChatWings!</h2>
-                    <h3 className="text-light fw-bold mb-4">El hogar de tus conversaciones</h3>
+                    <h2 className="text-light fw-bold">Bienvenido a la FaroApp!</h2>
+                    <h3 className="text-light fw-bold mb-4">El hogar del club Faro Valencia</h3>
                     <h5 className="text-light mb-3">Introduce tus datos para entrar</h5>
                     <p className="text-form text-start">Email</p>
                     <input className="form-control mb-3" type="email" onChange = {(e) => setEmail(e.target.value)}></input>
@@ -46,9 +46,8 @@ function Login(){
                             <div className="alert alert-danger mt-3">{messageError}</div>
                         ) 
                     }
-                    <span className="text-light">Si no dispones de una cuenta 
-                        <Link id="link" to="/signup"> regístrate</Link>
-                    </span>
+                    <span className="text-light">Si no dispones de una cuenta pídesela al padre Carlos</span>
+                    <span className="text-light">Hecho por Javier Sánchez, 2025 Todos los derechos reservados©</span>
                 </div>
             </form>
             
